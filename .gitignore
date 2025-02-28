@@ -1,0 +1,31 @@
+# Ignore environment variables and secrets
+.env
+
+# Virtual environment
+venv/
+*.venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database files (if using SQLite locally)
+db.sqlite3
+
+# Ignore logs & local settings
+*.log
+local_settings.py
+
+# Ignore Django static & media files (optional)
+staticfiles/
+media/
+
+# Ignore VS Code & PyCharm project settings
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
